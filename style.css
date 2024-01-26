@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.fundal{
+    background: url(n1.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.meniu{
+    height: 80px;
+    width: 100%;
+    background: rgb(0, 0, 0, 0.4);
+}
+
+.logo{
+    width: 70px;
+    height: auto;
+    padding: 5px 50px;
+}
+
+.meniu ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.meniu ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+.meniu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: "Sofia", sans-serif;
+    
+}
+
+a:hover{
+    background-color: #8c6aaf;
+    border-radius: 2px;
+}
+
+.fundal .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: "Sofia", sans-serif;
+    user-select: none;
+}
+
+.center h1{
+    color: white;
+    font-size: 70px;
+    width: 900px;
+    text-align: center;
+}
+
+.center .buton{
+    margin: 35px 280px;
+}
+
+.buton button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    color: white;
+    background: #8c6aaf;
+    border: 2px solid #ccc2d6;
+    cursor: pointer;
+    border-radius: 25px;
+
+}
+
+.buton .btn{
+    margin-left: 25px;
+}
+
+.buton button:hover{
+    background: #735c8a;
+}
