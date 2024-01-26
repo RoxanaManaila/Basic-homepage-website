@@ -1,4 +1,4 @@
-#Basic HTML/CSS website
+# Basic HTML/CSS website
 
 Hello there!
 This is a homepage website focusing on practicing the HTML/CSS principles.
